@@ -6,8 +6,8 @@ index = {"add": "00_core.ipynb"}
 
 modules = ["core.py"]
 
-doc_url = "https://students.github.io/scratch/"
+doc_url = "https://fastai.github.io/scratch/"
 
-git_url = "https://github.com/students/scratch/tree/master/"
+git_url = "https://github.com/fastai/scratch/tree/master/"
 
 def custom_doc_links(name): return None
