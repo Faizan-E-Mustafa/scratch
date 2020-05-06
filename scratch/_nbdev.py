@@ -2,9 +2,11 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"add": "00_core.ipynb"}
+index = {"add": "00_core.ipynb",
+         "CountVectorizer": "01_count_vectorizer.ipynb"}
 
-modules = ["core.py"]
+modules = ["core.py",
+           "feature_extraction/text.py"]
 
 doc_url = "https://fastai.github.io/scratch/"
 
