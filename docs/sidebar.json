@@ -1,6 +1,8 @@
 {
   "scratch": {
     "Overview": "/",
-    "module name here": "/core"
+    "module name here": "/core",
+    "feature_extraction.text": "/count_vectorizer",
+    "Title": "/main"
   }
 }

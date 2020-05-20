@@ -9,9 +9,14 @@ import numpy as np
 
 # Cell
 class CountVectorizer:
-    """Implementation of Bag of Word Model"""
+    """Implementation of Bag of Word Model. Assign zero to terms that don't occur in vocabulary"""
 
     def __init__(self, store_class_vocab = False):
+        """
+        Args:
+            store_class_vocab (bool): store vocabulary for individual classes ?
+        """
+
         if store_class_vocab:
             self.store_class_vocab = {}
 
@@ -59,7 +64,7 @@ class CountVectorizer:
         """Make Bag of Words vector.
 
         Args:
-            X (nested list): list of list containing samples.
+            X (nested list): list of list containing tokenized samples.
 
         Returns:
             sparse coordinate matrix of shape(len(X), len(vocab))
@@ -71,7 +76,10 @@ class CountVectorizer:
         for sample_index, sample in enumerate(X):
             sample = Counter(sample)
             for term, term_freq in sample.items():
-                vocab_index = self.vocab.index(term)
+                if term in self.vocab:
+                    vocab_index = self.vocab.index(term)
+                else:  #assign zero to some new term in test set which is not present in train.
+                    continue
                 columns.append(vocab_index)
                 rows.append(sample_index)
                 data.append(term_freq)

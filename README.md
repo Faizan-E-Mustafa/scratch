@@ -1,33 +1,9 @@
 # scratch
-> Implementation of basic Machine Learning algorithms from scratch.
+> Implementation of basic Machine Learning algorithms from scratch(almost).
 
 
-## Install
-
-`pip install scratch`
+# Motivation 
+- Create a resource for someone who wants to learn by implementing things.
+- Impove my understanding by implementing algorithms from scratch.
 
 ## How to use
-
-Most important function of the libarary ;)
-
-```python
-add(1, 10)
-```
-
-
-
-
-    11
-
-
-
-```python
-add(10, 10)
-```
-
-
-
-
-    20
-
-

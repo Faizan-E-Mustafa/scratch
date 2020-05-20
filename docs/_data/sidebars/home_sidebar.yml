@@ -12,6 +12,12 @@ entries:
     - output: web,pdf
       title: module name here
       url: /core
+    - output: web,pdf
+      title: feature_extraction.text
+      url: /count_vectorizer
+    - output: web,pdf
+      title: Title
+      url: /main
     output: web
     title: scratch
   output: web
