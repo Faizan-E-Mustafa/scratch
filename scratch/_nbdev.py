@@ -8,8 +8,8 @@ index = {"add": "00_core.ipynb",
 modules = ["core.py",
            "feature_extraction/text.py"]
 
-doc_url = "https://fastai.github.io/scratch/"
+doc_url = "https://Faizan-E-Mustafa.github.io/scratch/"
 
-git_url = "https://github.com/fastai/scratch/tree/master/"
+git_url = "https://github.com/Faizan-E-Mustafa/scratch/tree/master/"
 
 def custom_doc_links(name): return None
