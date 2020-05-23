@@ -84,4 +84,4 @@ class CountVectorizer:
                 rows.append(sample_index)
                 data.append(term_freq)
 
-        return coo_matrix((data,(rows, columns)))
+        return coo_matrix((data,(rows, columns)), shape=(len(X), len(self.vocab)))
