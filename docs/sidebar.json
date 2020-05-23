@@ -3,6 +3,6 @@
     "Overview": "/",
     "module name here": "/core",
     "feature_extraction.text": "/count_vectorizer",
-    "Title": "/main"
+    "Main Features": "/main"
   }
 }
