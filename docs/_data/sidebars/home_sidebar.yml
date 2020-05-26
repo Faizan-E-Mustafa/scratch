@@ -16,6 +16,9 @@ entries:
       title: feature_extraction.text
       url: /count_vectorizer
     - output: web,pdf
+      title: models.naive_bayes
+      url: /naive_bayes
+    - output: web,pdf
       title: Main Features
       url: /main
     output: web

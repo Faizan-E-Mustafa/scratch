@@ -3,6 +3,7 @@
     "Overview": "/",
     "module name here": "/core",
     "feature_extraction.text": "/count_vectorizer",
+    "models.naive_bayes": "/naive_bayes",
     "Main Features": "/main"
   }
 }

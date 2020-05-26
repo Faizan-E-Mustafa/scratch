@@ -2,11 +2,11 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"add": "00_core.ipynb",
-         "CountVectorizer": "01_count_vectorizer.ipynb"}
+index = {"CountVectorizer": "01_count_vectorizer.ipynb",
+         "NaiveBayes": "02_naive_bayes.ipynb"}
 
-modules = ["core.py",
-           "feature_extraction/text.py"]
+modules = ["feature_extraction/text.py",
+           "models/naive_bayes.py"]
 
 doc_url = "https://Faizan-E-Mustafa.github.io/scratch/"
 
