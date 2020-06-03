@@ -3,10 +3,14 @@
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"CountVectorizer": "01_count_vectorizer.ipynb",
-         "NaiveBayes": "02_naive_bayes.ipynb"}
+         "NaiveBayes": "02_naive_bayes.ipynb",
+         "KNearestNeighbors": "03_KNN.ipynb",
+         "euclidean_distance": "03_KNN.ipynb",
+         "distance_weights": "03_KNN.ipynb"}
 
 modules = ["feature_extraction/text.py",
-           "models/naive_bayes.py"]
+           "models/naive_bayes.py",
+           "models/KNN.py"]
 
 doc_url = "https://Faizan-E-Mustafa.github.io/scratch/"
 

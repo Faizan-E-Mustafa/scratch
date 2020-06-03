@@ -63,6 +63,7 @@ class NaiveBayes:
             X(nested list): nested list of tokenized samples.
 
         Returns:
+
             list of predicted label.
         """
 

@@ -10,14 +10,14 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: module name here
-      url: /core
-    - output: web,pdf
       title: feature_extraction.text
       url: /count_vectorizer
     - output: web,pdf
       title: models.naive_bayes
       url: /naive_bayes
+    - output: web,pdf
+      title: models.KNN
+      url: /KNN
     - output: web,pdf
       title: Main Features
       url: /main
