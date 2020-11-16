@@ -4,6 +4,7 @@
     "feature_extraction.text": "/count_vectorizer",
     "models.naive_bayes": "/naive_bayes",
     "models.KNN": "/KNN",
+    "models.linear_regression_ode": "/Linear_Regression_ODE",
     "Main Features": "/main"
   }
 }

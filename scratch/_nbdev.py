@@ -6,11 +6,13 @@ index = {"CountVectorizer": "01_count_vectorizer.ipynb",
          "NaiveBayes": "02_naive_bayes.ipynb",
          "KNearestNeighbors": "03_KNN.ipynb",
          "euclidean_distance": "03_KNN.ipynb",
-         "distance_weights": "03_KNN.ipynb"}
+         "distance_weights": "03_KNN.ipynb",
+         "LinearRegressionODE": "04_Linear_Regression_ODE.ipynb"}
 
 modules = ["feature_extraction/text.py",
            "models/naive_bayes.py",
-           "models/KNN.py"]
+           "models/KNN.py",
+           "models/linear_regression_ode.py"]
 
 doc_url = "https://Faizan-E-Mustafa.github.io/scratch/"
 

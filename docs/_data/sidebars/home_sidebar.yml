@@ -19,6 +19,9 @@ entries:
       title: models.KNN
       url: /KNN
     - output: web,pdf
+      title: models.linear_regression_ode
+      url: /Linear_Regression_ODE
+    - output: web,pdf
       title: Main Features
       url: /main
     output: web
